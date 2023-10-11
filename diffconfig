@@ -1,26 +1,14 @@
 CONFIG_TARGET_ramips=y
 CONFIG_TARGET_ramips_mt7621=y
 CONFIG_TARGET_ramips_mt7621_DEVICE_xiaomi_mi-router-4a-gigabit-v2=y
-CONFIG_AIRCRACK_NG_OPENSSL=y
-CONFIG_AIRCRACK_NG_OPTIMIZE_SPEED=y
 CONFIG_LUCI_SRCDIET=y
-CONFIG_PACKAGE_aircrack-ng=y
-CONFIG_PACKAGE_airmon-ng=y
 # CONFIG_PACKAGE_etherwake is not set
-CONFIG_PACKAGE_ethtool=y
-CONFIG_PACKAGE_libncurses=y
-CONFIG_PACKAGE_libnl-core=y
-CONFIG_PACKAGE_libnl-genl=y
-CONFIG_PACKAGE_libpcap=y
-CONFIG_PACKAGE_libstdcpp=y
 # CONFIG_PACKAGE_luci-app-vlmcsd is not set
 # CONFIG_PACKAGE_luci-app-vsftpd is not set
 # CONFIG_PACKAGE_luci-app-wol is not set
 CONFIG_PACKAGE_luci-compat=y
 CONFIG_PACKAGE_luci-theme-argon-mod=y
-CONFIG_PACKAGE_procps-ng=y
-CONFIG_PACKAGE_terminfo=y
 # CONFIG_PACKAGE_vlmcsd is not set
 # CONFIG_PACKAGE_vsftpd-alt is not set
-CONFIG_PACKAGE_wireless-tools=y
 # CONFIG_PACKAGE_wol is not set
+CONFIG_WPA_MSG_MIN_PRIORITY=0
