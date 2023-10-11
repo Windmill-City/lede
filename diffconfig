@@ -1,14 +1,9 @@
 CONFIG_TARGET_ramips=y
 CONFIG_TARGET_ramips_mt7621=y
 CONFIG_TARGET_ramips_mt7621_DEVICE_xiaomi_mi-router-4a-gigabit-v2=y
+CONFIG_IMAGEOPT=y
 CONFIG_LUCI_SRCDIET=y
-# CONFIG_PACKAGE_etherwake is not set
-# CONFIG_PACKAGE_luci-app-vlmcsd is not set
-# CONFIG_PACKAGE_luci-app-vsftpd is not set
-# CONFIG_PACKAGE_luci-app-wol is not set
-CONFIG_PACKAGE_luci-compat=y
 CONFIG_PACKAGE_luci-theme-argon-mod=y
-# CONFIG_PACKAGE_vlmcsd is not set
-# CONFIG_PACKAGE_vsftpd-alt is not set
-# CONFIG_PACKAGE_wol is not set
+CONFIG_PREINITOPT=y
+CONFIG_TARGET_PREINIT_IP="192.168.31.1"
 CONFIG_WPA_MSG_MIN_PRIORITY=0
